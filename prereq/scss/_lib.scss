@@ -1,0 +1,44 @@
+////////////////
+//    mixin   //
+////////////////
+
+@mixin pc {
+    @media (min-width:960px){
+        @content;
+    }
+}
+@mixin sp{
+    @media screen and (max-width:600px){
+        @content;
+    }
+}
+
+////////////////
+//    共通    //
+////////////////
+.wrapper{
+    overflow:hidden;
+}
+
+body{
+    width: 100%;
+    min-width:1024px;
+}
+.title{
+    font-size:18px;
+    height: 24px;
+    letter-spacing: 5.4px;
+    color: #707070;
+    &:after{
+        display:inline-block;
+        content:"";
+        border-top: 1px solid;
+        width: 95px;
+        transform: translate(0,-6px);
+    }
+}
+
+.wrap{
+    width: 83%;
+    margin: 0 auto;
+}

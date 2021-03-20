@@ -1,0 +1,52 @@
+.concept1{
+    height: 407px;
+    width: 100%;
+    background-color: #A193861F;
+    position:relative;
+}
+
+.concept1 .wrap{
+    position:absolute;
+    top:256px;
+    left:101px;
+}
+
+.concept-img{
+    display:flex;
+}
+
+.andrew{
+    width:67%;
+    margin-right:11px;
+}
+
+.joel{
+    width:39%;
+}
+
+.concept2{
+    background-color: #A1938689;
+    height:560px;
+    color:white;
+    display:flex;
+}
+
+.concept2 .wrap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.concept2 h3{
+    font-size:40px;
+    letter-spacing: 16px;
+    margin-top:389px;
+}
+
+.concept2 p{
+    margin-top:366px;
+    width:41%;
+    height:130px;
+    font-size:16px;
+    letter-spacing:1.6px;
+    overflow:hidden;
+}

@@ -1,0 +1,29 @@
+.menu h4{
+    margin-top:261px;
+    font-size:18px;
+}
+
+.menu-item-wrap{
+    display:flex;
+    justify-content: space-between;
+    margin:11px 0 70px;
+}
+
+.menu .menu-item{
+    width:27%
+}
+
+.item-name{
+    margin-top:37px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.item-text{
+    margin-top:34px;
+}
+
+.item-price{
+    margin-top:34px;
+    text-align:right;
+}

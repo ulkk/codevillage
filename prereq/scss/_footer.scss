@@ -1,0 +1,33 @@
+.footer-wrap{
+    margin-top:84px;
+    margin-bottom:62px;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.footer-left{
+    display:flex;
+}
+
+.line{
+    width:100%;
+    border-bottom: 1px solid #70707036;
+    margin-top:165px;
+}
+
+.footer-text{
+    color:#7070704D;
+    font-size:32px;
+    margin-right:26px;
+}
+
+.reserve{
+    color:#707070;
+    border:1px solid #707070;
+    font-size:18px;
+}
+
+.fa-twitter{
+    margin-right:9px;
+}

@@ -4,21 +4,32 @@
     display:flex;
     justify-content: space-between;
     //width:100%;
+    @include sp{
+     flex-direction:column-reverse;   
+    }
 }
 
 .footer-left{
     display:flex;
+    @include sp{
+     font-size:18px;
+     margin-top:62px;
+     justify-content: space-between;
+    }
 }
 
 .line{
     width:100%;
     border-bottom: 1px solid #70707036;
     margin-top:165px;
+    @include sp{
+     margin-top:64px;   
+    }
 }
 
 .footer-text{
     color:#7070704D;
-    font-size:32px;
+    font-size:18px;
     margin-right:26px;
 }
 
@@ -26,6 +37,11 @@
     color:#707070;
     border:1px solid #707070;
     font-size:18px;
+    @include sp{
+        width:50%;
+        text-align:center;
+        margin:0 auto;
+       }
 }
 
 .fa-twitter{

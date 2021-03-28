@@ -1,16 +1,26 @@
 .menu h4{
     margin-top:261px;
     font-size:18px;
+    @include sp{
+     margin-top:60px;   
+    }
 }
 
 .menu-item-wrap{
     display:flex;
     justify-content: space-between;
     margin:11px 0 70px;
+    @include sp{
+     display:block;   
+    }
 }
 
 .menu .menu-item{
-    width:27%
+    width:27%;
+    @include sp{
+        width:100%;
+        margin-top:60px;
+    }
 }
 
 .menu img{
@@ -21,10 +31,17 @@
     margin-top:37px;
     text-align:center;
     font-weight:bold;
+    @include sp{
+     text-align:left;   
+     font-size:30px;
+    }
 }
 
 .item-text{
     margin-top:34px;
+    @include sp{
+     line-height:19px; 
+    }
 }
 
 .item-price{

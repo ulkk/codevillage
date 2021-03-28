@@ -90,6 +90,13 @@ header {
   header {
     width: 93%;
     justify-content: space-between;
+    position: static;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 21px;
+    align-items: center;
+    font-weight: normal;
+    font-size: 22px;
   }
 }
 
@@ -135,29 +142,46 @@ header ul li:hover {
 }
 
 .first-v {
+  height: 800px;
   display: flex;
-  align-items: center;
 }
 
 .first-v-text {
-  margin-top: 55px;
   width: 47%;
   height: 100%;
+}
+@media screen and (max-width: 600px) {
+  .first-v-text {
+    width: 100%;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 .first-v-wrap {
   width: 53%;
   height: 100%;
+  background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
+  background-size: cover;
 }
-
-.blond {
-  width: 100%;
+@media screen and (max-width: 600px) {
+  .first-v-wrap {
+    width: 100%;
+  }
 }
 
 .first-v h2 {
   font-size: 38px;
+  margin-top: 296px;
   text-align: center;
   font-style: "ヒラギノ明朝 Pro";
+}
+@media screen and (max-width: 600px) {
+  .first-v h2 {
+    margin-top: 0;
+  }
 }
 
 .first-v p {
@@ -165,11 +189,22 @@ header ul li:hover {
   font-size: 38px;
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  .first-v p {
+    margin-top: 0;
+    height: 95px;
+  }
+}
 
 .concept1 {
   height: 407px;
   background-color: #A193861F;
   position: relative;
+}
+@media screen and (max-width: 600px) {
+  .concept1 {
+    height: 176px;
+  }
 }
 
 .concept1 .wrap {
@@ -177,18 +212,42 @@ header ul li:hover {
   top: 256px;
   left: 10%;
 }
+@media screen and (max-width: 600px) {
+  .concept1 .wrap {
+    top: 60px;
+  }
+}
 
 .concept-img {
   display: flex;
 }
+@media screen and (max-width: 600px) {
+  .concept-img {
+    padding-top: 50px;
+    overflow: hidden;
+  }
+}
 
 .andrew {
-  width: 67%;
   margin-right: 11px;
+  width: 47%;
+}
+@media screen and (max-width: 600px) {
+  .andrew {
+    height: 240px;
+    object-fit: cover;
+    object-position: 100% 0;
+  }
 }
 
 .joel {
   width: 39%;
+}
+@media screen and (max-width: 600px) {
+  .joel {
+    width: 47%;
+    height: 240px;
+  }
 }
 
 .concept2 {
@@ -197,10 +256,20 @@ header ul li:hover {
   color: white;
   display: flex;
 }
+@media screen and (max-width: 600px) {
+  .concept2 {
+    display: block;
+  }
+}
 
 .concept2 .wrap {
   display: flex;
   justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+  .concept2 .wrap {
+    display: block;
+  }
 }
 
 .concept2 h3 {
@@ -208,19 +277,39 @@ header ul li:hover {
   letter-spacing: 16px;
   margin-top: 389px;
 }
+@media screen and (max-width: 600px) {
+  .concept2 h3 {
+    padding-top: 250px;
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+}
 
 .concept2 p {
-  margin-top: 366px;
+  margin-top: 390px;
   width: 41%;
   height: 130px;
   font-size: 16px;
   letter-spacing: 1.6px;
   overflow: hidden;
 }
+@media screen and (max-width: 600px) {
+  .concept2 p {
+    width: 100%;
+    margin-top: 18px;
+    line-height: 27px;
+  }
+}
 
 .menu h4 {
   margin-top: 261px;
   font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+  .menu h4 {
+    margin-top: 60px;
+  }
 }
 
 .menu-item-wrap {
@@ -228,9 +317,20 @@ header ul li:hover {
   justify-content: space-between;
   margin: 11px 0 70px;
 }
+@media screen and (max-width: 600px) {
+  .menu-item-wrap {
+    display: block;
+  }
+}
 
 .menu .menu-item {
   width: 27%;
+}
+@media screen and (max-width: 600px) {
+  .menu .menu-item {
+    width: 100%;
+    margin-top: 60px;
+  }
 }
 
 .menu img {
@@ -242,9 +342,20 @@ header ul li:hover {
   text-align: center;
   font-weight: bold;
 }
+@media screen and (max-width: 600px) {
+  .item-name {
+    text-align: left;
+    font-size: 30px;
+  }
+}
 
 .item-text {
   margin-top: 34px;
+}
+@media screen and (max-width: 600px) {
+  .item-text {
+    line-height: 19px;
+  }
 }
 
 .item-price {
@@ -260,22 +371,45 @@ header ul li:hover {
 .access .wrap {
   padding-top: 261px;
 }
+@media screen and (max-width: 600px) {
+  .access .wrap {
+    padding-top: 60px;
+  }
+}
 
 .access-wrap {
   background-color: #D0C5BA;
   display: flex;
   height: 396px;
 }
+@media screen and (max-width: 600px) {
+  .access-wrap {
+    flex-direction: column-reverse;
+    height: 540px;
+  }
+}
 
 .access-text {
   width: 40%;
   margin-left: 10%;
-  margin-top: 101px;
+  margin-top: 0;
+}
+@media screen and (max-width: 600px) {
+  .access-text {
+    width: 62%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
 }
 
 .access p {
   font-size: 24px;
   color: #00000038;
+}
+@media screen and (max-width: 600px) {
+  .access p {
+    font-weight: bold;
+  }
 }
 .access ul {
   margin-top: 30px;
@@ -284,12 +418,28 @@ header ul li:hover {
   flex-flow: column;
   justify-content: space-between;
 }
+@media screen and (max-width: 600px) {
+  .access ul {
+    font-size: 16px;
+  }
+}
 .access li {
   color: white;
+}
+@media screen and (max-width: 600px) {
+  .access h5 {
+    margin-bottom: 50px;
+  }
 }
 
 .access-map {
   width: 60%;
+}
+@media screen and (max-width: 600px) {
+  .access-map {
+    width: 100%;
+    height: 260px;
+  }
 }
 .access-map iframe {
   width: 100%;
@@ -302,9 +452,21 @@ header ul li:hover {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 600px) {
+  .footer-wrap {
+    flex-direction: column-reverse;
+  }
+}
 
 .footer-left {
   display: flex;
+}
+@media screen and (max-width: 600px) {
+  .footer-left {
+    font-size: 18px;
+    margin-top: 62px;
+    justify-content: space-between;
+  }
 }
 
 .line {
@@ -312,10 +474,15 @@ header ul li:hover {
   border-bottom: 1px solid #70707036;
   margin-top: 165px;
 }
+@media screen and (max-width: 600px) {
+  .line {
+    margin-top: 64px;
+  }
+}
 
 .footer-text {
   color: #7070704D;
-  font-size: 32px;
+  font-size: 18px;
   margin-right: 26px;
 }
 
@@ -323,6 +490,13 @@ header ul li:hover {
   color: #707070;
   border: 1px solid #707070;
   font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+  .reserve {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .fa-twitter {

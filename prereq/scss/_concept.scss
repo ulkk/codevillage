@@ -3,25 +3,45 @@
     //width: 100%;
     background-color: #A193861F;
     position:relative;
+    @include sp{
+        height:176px;
+    }
 }
 
 .concept1 .wrap{
     position:absolute;
     top:256px;
     left:10%;
+    @include sp{
+     top:60px;   
+    }
 }
 
 .concept-img{
     display:flex;
+    @include sp{
+     padding-top:50px;   
+     overflow:hidden;
+    }
 }
 
 .andrew{
-    width:67%;
+    //width:67%;
     margin-right:11px;
+    width:47%;
+    @include sp{
+        height:240px;
+        object-fit:cover;
+        object-position:100% 0;
+    }
 }
 
 .joel{
     width:39%;
+    @include sp{
+     width:47%;
+     height:240px;
+    }
 }
 
 .concept2{
@@ -29,24 +49,41 @@
     height:560px;
     color:white;
     display:flex;
+    @include sp{
+        display:block;
+    }
 }
 
 .concept2 .wrap{
     display: flex;
     justify-content: space-around;
+    @include sp{
+        display:block;
+    }
 }
 
 .concept2 h3{
     font-size:40px;
     letter-spacing: 16px;
     margin-top:389px;
+    @include sp{
+        padding-top:250px;
+        margin-top:0;
+        font-size:18px;
+        text-align:center;
+    }
 }
 
 .concept2 p{
-    margin-top:366px;
+    margin-top:390px;
     width:41%;
     height:130px;
     font-size:16px;
     letter-spacing:1.6px;
     overflow:hidden;
+    @include sp{
+        width:100%;
+        margin-top:18px;
+        line-height:27px;
+    }
 }

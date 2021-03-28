@@ -5,6 +5,9 @@
 
 .access .wrap{
     padding-top:261px;
+    @include sp{
+     padding-top:60px;   
+    }
 }
 
 .access-wrap{
@@ -12,33 +15,57 @@
     display:flex;
     //width:100%;
     height:396px;
+    @include sp{
+        flex-direction:column-reverse;
+        height:540px;
+    }
 }
 
 .access-text{
     width:40%;
     margin-left:10%;
-    margin-top:101px;
+    margin-top:0;
+    @include sp{
+     width:62%;
+     margin-top:30px;
+     margin-bottom:60px;
+    }
 }
 
 .access{
     p{
         font-size:24px;
         color:#00000038;
+        @include sp{
+        font-weight:bold;
+        }
     }
     ul{
         margin-top:30px;
         height:138px;
         display:flex;
         flex-flow:column;
-        justify-content: space-between;   
+        justify-content: space-between;
+        @include sp{
+        font-size:16px;
+        }
     }
     li{
         color:white;
+    }
+    @include sp{
+        h5{
+            margin-bottom:50px;
+        }
     }
 }
 
 .access-map{
     width:60%;
+    @include sp{
+     width:100%;
+     height:260px;  
+    }
     iframe{
         width:100%;
         height:100%;

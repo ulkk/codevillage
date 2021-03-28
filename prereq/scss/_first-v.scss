@@ -1,33 +1,39 @@
 .first-v{
     //width:100%;
-    //height:800px;
+    height:800px;
     display:flex;
-    align-items:center;
 }
 
 .first-v-text{
-    margin-top:55px;
     width:47%;
     height:100%;
+    @include sp{
+        width:100%;
+        position:absolute;
+        color:white;
+        display:flex;
+        flex-direction:column-reverse;
+    }
 }
 
 .first-v-wrap{
     width:53%;
     height:100%;
-    //background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
-    //background-size:cover;
-}
-
-.blond{
-    width:100%;
-    //height:100%;
+    background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
+    background-size:cover;
+    @include sp{
+        width:100%;
+    }
 }
 
 .first-v h2{
     font-size:38px;
-    //margin-top:296px;
+    margin-top:296px;
     text-align: center;
     font-style: "ヒラギノ明朝 Pro";
+    @include sp{
+        margin-top:0;
+    }
 }
 
 .first-v p{
@@ -35,4 +41,8 @@
     margin-top:48px;
     font-size:38px;
     text-align: center;
+    @include sp{
+        margin-top:0;
+        height:95px;
+    }
 }

@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+body {
+  width: 100%;
+}
+
 .title {
   font-size: 18px;
   height: 24px;
@@ -148,7 +152,6 @@ header ul li:hover {
 
 .first-v-text {
   width: 47%;
-  height: 100%;
 }
 @media screen and (max-width: 600px) {
   .first-v-text {
@@ -157,6 +160,7 @@ header ul li:hover {
     color: white;
     display: flex;
     flex-direction: column-reverse;
+    top: 50%;
   }
 }
 

@@ -6,13 +6,13 @@
 
 .first-v-text{
     width:47%;
-    height:100%;
     @include sp{
         width:100%;
         position:absolute;
         color:white;
         display:flex;
         flex-direction:column-reverse;
+        top:50%;
     }
 }
 

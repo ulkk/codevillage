@@ -89,6 +89,7 @@ header {
   margin-top: 68px;
   margin-left: 7%;
   position: absolute;
+  z-index: 1;
 }
 @media screen and (max-width: 600px) {
   header {

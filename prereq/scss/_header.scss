@@ -3,6 +3,7 @@ header{
     margin-top:68px;
     margin-left:7%;
     position:absolute;
+    z-index:1;
     @include sp{
         width:100% - 7%;
         justify-content: space-between;

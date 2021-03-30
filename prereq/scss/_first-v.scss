@@ -33,6 +33,7 @@
     font-style: "ヒラギノ明朝 Pro";
     @include sp{
         margin-top:0;
+        letter-spacing: 2.3px;
     }
 }
 
@@ -44,5 +45,6 @@
     @include sp{
         margin-top:0;
         height:95px;
+        letter-spacing:2.8px;
     }
 }

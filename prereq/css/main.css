@@ -148,6 +148,7 @@ header ul li:hover {
 .first-v {
   height: 800px;
   display: flex;
+  position: relative;
 }
 
 .first-v-text {
@@ -161,6 +162,7 @@ header ul li:hover {
     display: flex;
     flex-direction: column-reverse;
     top: 50%;
+    transform: translate(0, -50%);
   }
 }
 
@@ -185,6 +187,7 @@ header ul li:hover {
 @media screen and (max-width: 600px) {
   .first-v h2 {
     margin-top: 0;
+    letter-spacing: 2.3px;
   }
 }
 
@@ -197,6 +200,7 @@ header ul li:hover {
   .first-v p {
     margin-top: 0;
     height: 95px;
+    letter-spacing: 2.8px;
   }
 }
 

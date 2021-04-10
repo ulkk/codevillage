@@ -3,6 +3,18 @@
     height:800px;
     display:flex;
     position:relative;
+    @include sp{
+        width:100%;
+        height:auto;
+    }
+}
+
+@include sp{
+    .first-v:before{
+        content:"";
+        display:block;
+        padding-top:110%;
+    }
 }
 
 .first-v-text{
@@ -25,6 +37,7 @@
     background-size:cover;
     @include sp{
         width:100%;
+        height:auto;
     }
 }
 
@@ -36,6 +49,7 @@
     @include sp{
         margin-top:0;
         letter-spacing: 2.3px;
+        font-size:23px;
     }
 }
 
@@ -48,5 +62,6 @@
         margin-top:0;
         height:95px;
         letter-spacing:2.8px;
+        font-size:28px;
     }
 }

@@ -13,7 +13,6 @@ header{
         margin-left:21px;
         align-items:center;
         font-weight:normal;
-        font-size:22px;
     }
 }
 
@@ -21,6 +20,10 @@ header h1{
     font-weight:bold;
     font-size:38px;
     letter-spacing:3.8px;
+    @include sp{
+        font-size:22px;
+        letter-spacing:2.2px;
+    }
 }
 
 header ul{
@@ -48,7 +51,6 @@ header ul{
 
 .fa-bars{
     display:none;
-    font-size:38px;
     @include sp {
         display:flex;
         }

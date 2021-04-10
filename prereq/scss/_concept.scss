@@ -30,7 +30,7 @@
     margin-right:11px;
     width:59%;
     @include sp{
-        height:240px;
+        height:auto;
         object-fit:cover;
         object-position:100% 0;
     }
@@ -40,7 +40,7 @@
     width:41%;
     @include sp{
      width:47%;
-     height:240px;
+     height:auto;
     }
 }
 
@@ -51,8 +51,18 @@
     display:flex;
     @include sp{
         display:block;
+        height:auto;
     }
 }
+
+
+    .concept2:before{
+        content:"";
+        display:block;
+        padding-top:42%;
+
+    }
+
 
 .concept2 .wrap{
     display: flex;
@@ -67,10 +77,10 @@
     letter-spacing: 16px;
     margin-top:389px;
     @include sp{
-        padding-top:250px;
         margin-top:0;
         font-size:18px;
         text-align:center;
+        letter-spacing:7.2px;
     }
 }
 
@@ -85,5 +95,7 @@
         width:100%;
         margin-top:18px;
         line-height:27px;
+        height:auto;
+        padding-bottom:63px;
     }
 }
